@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="cv"></div>
+
+  <!-- 引入 辅助工具方法 -->
+  <script src="js/utils.js"></script>
+  <!-- 引入 小鸟对象 -->
+  <script src="js/birds.js"></script>
+  <!-- 引入 天空对象 -->
+  <script src="js/sky.js"></script>
+  <!-- 引入 陆地对象 -->
+  <script src="js/land.js"></script>
+  <!-- 引入 管道对象 -->
+  <script src="js/pipe.js"></script>
+  <!-- 引入 游戏对象 -->
+  <script src="js/game.js"></script>
+  <script type="text/javascript">
+ var game = Fly.factory('Game', 'cv');
+ game.startGame();
+  </script>
+</body>
+
+</html>
